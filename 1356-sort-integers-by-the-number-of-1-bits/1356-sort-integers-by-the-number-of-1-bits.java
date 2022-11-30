@@ -3,7 +3,7 @@
     public int compare(Integer a , Integer b){
         int x=Integer.bitCount(a);
         int y=Integer.bitCount(b);
-        System.out.println(x+" "+y);
+        // System.out.println(x+" "+y);
         if(x==y)return a-b;
         return x-y;
     }
